@@ -1,1 +1,52 @@
-# Official DETECT Github Repository
+# Transformer Models for DETECT: Data-driven Evaluation of Treatments Enabled by Classification Transformers
+
+This repository contains the code and transformer models used in our research paper: "**DETECT: Data-driven Evaluation of Treatments Enabled by Classification Transformers**". These models cover different datasets, including public datasets and internally simulated data.
+
+## Table of Contents
+
+- [Models](#models)
+- [Datasets](#datasets)
+- [Citation](#citation)
+- [License](#license)
+
+## Models
+
+This repository contains three transformer-based models: 
+
+| Model                   | Dataset                                   | Description                                                                                 |
+|-------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------|
+| `PublicDataIMU`         | IMU-based Human Activity Recognition Dataset | Transformer model trained on a publicly available dataset to evaluate accuracy and robustness. |
+| `PublicDataKUHAR`       | KU-HAR: An Open Dataset for Human Activity Recognition | Transformer model trained on a second public dataset to assess model performance and generalizability. |
+| `TransformerSIMDATA`    | Simulated Dataset                          | Transformer model trained on internally generated simulated data to replace patient data restricted by IRB. |
+
+All models are stored in the `Models/` folder:
+
+## Datasets
+
+### Public Datasets
+1. IMU-based Human Activity Recognition Dataset
+- Used for training the PublicDataIMU model
+- Access: [IMU-based Human Activity Recognition Dataset](https://data.mendeley.com/datasets/fcnmmsn857/3)
+- Citation: Tahir, Yara; Hamarash, Ibrahim Ismael (2025), “IMU-based Human Activity Recognition Dataset”, Mendeley Data, V3, doi: 10.17632/fcnmmsn857.3
+
+2. KU-HAR: An Open Dataset for Human Activity Recognition
+- Used for training the PublicDataKUHAR model
+- Access: [KU-HAR: An Open Dataset for Human Activity Recognition](https://data.mendeley.com/datasets/45f952y38r/4)
+- Citation: Sikder, Niloy; Rafi, Ibrahim; Nahid, Abdullah-Al (2020), “KU-HAR: An Open Dataset for  Human Activity Recognition”, Mendeley Data, V4, doi: 10.17632/45f952y38r.4
+
+### Simulated Data
+- Collected internally and stored securely in Firebase 
+- Used for training the TransformerSIMDATA model
+- This dataset is not publicly available due to privacy restrictions
+
+## Citation
+If you use this code or datasets in your research, please cite our paper: 
+{blank}
+
+And the datasets: 
+
+Tahir, Yara; Hamarash, Ibrahim Ismael (2025), “IMU-based Human Activity Recognition Dataset”, Mendeley Data, V3, doi: 10.17632/fcnmmsn857.3
+Sikder, Niloy; Rafi, Ibrahim; Nahid, Abdullah-Al (2020), “KU-HAR: An Open Dataset for  Human Activity Recognition”, Mendeley Data, V4, doi: 10.17632/45f952y38r.4
+
+## License
+This repository is licensed under the MIT license. See the LICENSE file for details.
