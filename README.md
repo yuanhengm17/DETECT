@@ -1,6 +1,6 @@
 # Transformer Models for DETECT: Data-driven Evaluation of Treatments Enabled by Classification Transformers
 
-This repository contains the code and transformer models used in our research paper: "**DETECT: Data-driven Evaluation of Treatments Enabled by Classification Transformers**". These models cover different datasets, including public datasets and internally simulated data.
+This repository contains the code and transformer models used in our research paper: "**DETECT: Data-driven Evaluation of Treatments Enabled by Classification Transformers**". These models cover different datasets, including public benchmark datasets and internally simulated data.
 
 ## Table of Contents
 
