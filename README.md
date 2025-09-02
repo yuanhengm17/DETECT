@@ -17,7 +17,7 @@ This repository contains three transformer-based models:
 |----------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------|
 | `PublicDataIMU`      | IMU-based Human Activity Recognition Dataset | Transformer model trained on a publicly available dataset to evaluate accuracy and robustness. |
 | `PublicDataKUHAR`    | KU-HAR: An Open Dataset for Human Activity Recognition | Transformer model trained on a second public dataset to assess model performance and generalizability. |
-| `TransformerSIMDATA` | Simulated Dataset                             | Transformer model trained on internally generated simulated data to replace patient data restricted by IRB. |
+| `TransformerSIMDATA` | Simulated Dataset                             | Transformer model trained on internally generated data to simulate real patient activities of daily life (ADL) patterns. |
 
 All models are stored in the `models/` folder.
 
@@ -41,14 +41,13 @@ All models are stored in the `models/` folder.
 
 - Collected internally and stored securely in Firebase  
 - Used for training the `TransformerSIMDATA` model  
-- This dataset is not publicly available due to privacy restrictions  
+- Neither this dataset nor the real patient dataset that has been delayed due to IRB is publicly available due to privacy restrictions
 
 ---
 
 ## Citation
 
-If you use this code or datasets in your research, please cite our paper:
-{blank}
+If you use this code or datasets in your research, please cite our paper: Coming Soon
 
 And the datasets: 
 
