@@ -35,7 +35,7 @@ All models are stored in the `models/` folder.
 2. **KU-HAR: An Open Dataset for Human Activity Recognition**  
    - Used for training the `PublicDataKUHAR` model  
    - Access: [KU-HAR: An Open Dataset for Human Activity Recognition](https://data.mendeley.com/datasets/45f952y38r/4)  
-   - Citation: Sikder, Niloy; Rafi, Ibrahim; Nahid, Abdullah-Al (2020), “KU-HAR: An Open Dataset for Human Activity Recognition”, Mendeley Data, V4, doi: 10.17632/45f952y38r.4  
+   - Citation: Nahid, Abdullah-Al; Sikder, Niloy; Rafi, Ibrahim (2021), “KU-HAR: An Open Dataset for  Human Activity Recognition”, Mendeley Data, V5, doi: 10.17632/45f952y38r.5
 
 ### Simulated Data
 
@@ -53,7 +53,7 @@ And the datasets:
 
 Tahir, Yara; Hamarash, Ibrahim Ismael (2025), “IMU-based Human Activity Recognition Dataset”, Mendeley Data, V3, doi: 10.17632/fcnmmsn857.3
 
-Sikder, Niloy; Rafi, Ibrahim; Nahid, Abdullah-Al (2020), “KU-HAR: An Open Dataset for  Human Activity Recognition”, Mendeley Data, V4, doi: 10.17632/45f952y38r.4
+Nahid, Abdullah-Al; Sikder, Niloy; Rafi, Ibrahim (2021), “KU-HAR: An Open Dataset for  Human Activity Recognition”, Mendeley Data, V5, doi: 10.17632/45f952y38r.5
 
 ---
 
