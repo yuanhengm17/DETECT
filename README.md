@@ -5,6 +5,7 @@ This repository contains the code and transformer models used in our research pa
 ## Table of Contents
 
 - [Models](#models)
+- [Graphs](#graphs)
 - [Datasets](#datasets)
 - [Citation](#citation)
 - [License](#license)
@@ -20,6 +21,12 @@ This repository contains three transformer-based models:
 | `TransformerSIMDATA` | Simulated Dataset                             | Transformer model trained on internally generated data to simulate real patient activities of daily life (ADL) patterns. |
 
 All models are stored in the `models/` folder.
+
+---
+
+## Graphs
+
+This repository also contains the simulated patients' motion data graphs that we displayed in the paper. The graphs and code are available at the `graphs.ipynb` file.
 
 ---
 
